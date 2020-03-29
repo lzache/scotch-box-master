@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="830fa846-9c28-4ce0-abdf-0bcae30b3132" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/query-monitor/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1ZjBEt4iO9rTEgZnErxFVKjPByF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="830fa846-9c28-4ce0-abdf-0bcae30b3132" name="Default Changelist" comment="" />
+      <created>1585342514106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585342514106</updated>
+      <workItem from="1585342515403" duration="883000" />
+      <workItem from="1585354022083" duration="422000" />
+      <workItem from="1585418435619" duration="97000" />
+      <workItem from="1585418636365" duration="1497000" />
+      <workItem from="1585501632070" duration="53000" />
+      <workItem from="1585501889704" duration="625000" />
+      <workItem from="1585503145591" duration="61000" />
+      <workItem from="1585503263365" duration="623000" />
+      <workItem from="1585504287586" duration="497000" />
+      <workItem from="1585504924668" duration="31000" />
+      <workItem from="1585505017034" duration="188000" />
+      <workItem from="1585505227909" duration="448000" />
+      <workItem from="1585505974877" duration="271000" />
+      <workItem from="1585508060444" duration="15000" />
+      <workItem from="1585508104545" duration="9667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="559" y="371" key="#WordPress" timestamp="1585501942430">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="559" y="371" key="#WordPress/0.23.1440.831@0.23.1440.831" timestamp="1585501942430" />
+    <state x="452" y="252" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1585506538064">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="452" y="252" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1440.831@0.23.1440.831" timestamp="1585506538064" />
+    <state x="477" y="343" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585502584340">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="477" y="343" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.831@0.23.1440.831" timestamp="1585502584340" />
+    <state x="319" y="308" key="Performance.Activity.Monitor" timestamp="1585504809928">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="319" y="308" key="Performance.Activity.Monitor/0.23.1440.831@0.23.1440.831" timestamp="1585504809928" />
+    <state x="223" y="104" key="SettingsEditor" timestamp="1585506538926">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="223" y="104" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1585506538926" />
+    <state x="413" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1585504925216">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="413" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1585504925216" />
+    <state x="395" y="222" width="639" height="486" key="find.popup" timestamp="1585503727140">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="395" y="222" width="639" height="486" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1585503727140" />
+    <state x="379" y="212" key="run.anything.popup" timestamp="1585503955086">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="379" y="212" key="run.anything.popup/0.23.1440.831@0.23.1440.831" timestamp="1585503955086" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/../..</wordpressPath>
+  </component>
+</project>

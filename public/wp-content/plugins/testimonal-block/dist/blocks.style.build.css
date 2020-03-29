@@ -1,0 +1,53 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-lz-plugin-testimonal-block {
+  border: .1em solid #aaaaaa;
+  border-radius: .5em;
+  color: #292929;
+  margin: 0 auto;
+  background-color: #F3F3F3; }
+  .wp-block-lz-plugin-testimonal-block .stars {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: .5em;
+    margin-top: .5em;
+    color: gold; }
+    .wp-block-lz-plugin-testimonal-block .stars select {
+      width: 10em; }
+  .wp-block-lz-plugin-testimonal-block .quote {
+    width: 100%;
+    padding: 1.5em;
+    line-height: 1.5; }
+  .wp-block-lz-plugin-testimonal-block .quote-profile {
+    background-color: white;
+    border-radius: 0 0 .5em .5em;
+    padding: 1em;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center; }
+    .wp-block-lz-plugin-testimonal-block .quote-profile .photo img {
+      width: 75px;
+      height: 75px;
+      -o-object-fit: cover;
+         object-fit: cover;
+      border-radius: 50%;
+      margin-right: 2em; }
+    .wp-block-lz-plugin-testimonal-block .quote-profile .author, .wp-block-lz-plugin-testimonal-block .quote-profile .location {
+      margin: 0;
+      text-align: right;
+      font-weight: 700; }
+    .wp-block-lz-plugin-testimonal-block .quote-profile .location {
+      font-weight: 300;
+      font-size: 0.7em; }

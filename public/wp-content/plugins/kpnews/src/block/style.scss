@@ -1,0 +1,30 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-lz-plugin-kpnews  {
+  border-style: hidden;
+  box-shadow: 2px 2px 12px grey;
+  margin: 0 auto;
+  width: 500px;
+
+
+  .author {
+	text-align: left;
+  }
+  .title {
+	font-size: 1.5em;
+  }
+
+  .photo img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	margin-right: 2em;
+  }
+
+
+
+}

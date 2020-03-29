@@ -1,0 +1,27 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-lz-plugin-kpnews {
+  border-style: hidden;
+  -webkit-box-shadow: 2px 2px 12px grey;
+          box-shadow: 2px 2px 12px grey;
+  margin: 0 auto;
+  width: 500px; }
+  .wp-block-lz-plugin-kpnews .author {
+    text-align: left; }
+  .wp-block-lz-plugin-kpnews .title {
+    font-size: 1.5em; }
+  .wp-block-lz-plugin-kpnews .photo img {
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 2em; }
