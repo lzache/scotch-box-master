@@ -13,7 +13,6 @@ const { __ } = wp.i18n; // Import __() from wp.i18n
 const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.blocks
 const { RichText, PlainText, MediaUpload, MediaUploadCheck } = wp.blockEditor;
 
-
 /**
  * Register: aa Gutenberg Block.
  *
@@ -78,22 +77,22 @@ registerBlockType( 'lz-plugin/kpnews', {
 	 * @returns {Mixed} JSX Component.
 	 */
 	edit: ( props ) => {
-		let {attributes: { newspost, title, date, imgUrl }, setAttributes, className } = props;
+		let { attributes: { newspost, title, date, imgUrl }, setAttributes, className } = props;
 
-		function changeNewsPost(value){
+		function changeNewsPost(value) {
 			setAttributes({newspost: value});
 		}
 
-		function changeTitle(value){
+		function changeTitle(value) {
 			setAttributes({title: value});
 		}
 
-		function changeDate(value){
+		function changeDate(value) {
 			setAttributes({date: value});
 		}
 
-		function selectImage(value){
-			setAttributes( {imgUrl: value.sizes.medium.url} );
+		function selectImage(value) {
+			setAttributes({imgUrl: value.sizes.medium.url});
 		}
 
 
@@ -120,9 +119,9 @@ registerBlockType( 'lz-plugin/kpnews', {
 					<MediaUploadCheck>
 						<MediaUpload
 							allowedTypes={['image']}
-							on Select={selectImage}
+							onSelect={selectImage}
 							render={({open}) =>
-							<img src={imgUrl} onClick={open} />
+								<img src={imgUrl} onClick={open} />
 							}
 						/>
 					</MediaUploadCheck>
