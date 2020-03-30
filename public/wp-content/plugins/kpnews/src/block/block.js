@@ -119,6 +119,7 @@ registerBlockType( 'lz-plugin/kpnews', {
 				<div className="photo">
 					<MediaUploadCheck>
 						<MediaUpload
+							allowedTypes={['image']}
 							on Select={selectImage}
 							render={({open}) =>
 							<img src={imgUrl} onClick={open} />
@@ -146,12 +147,15 @@ registerBlockType( 'lz-plugin/kpnews', {
 		return (
 			<div className={ props.className }>
 
+				<div className="content">
 				<div className="text">
 					<p className="title">{props.attributes.title}</p>
 					<p className="date">{props.attributes.date}</p>
 					<p className="newspost">{props.attributes.newspost}</p>
+				</div>
+
 					<div className="photo">
-						<img src={props.attributes.imgUrl} />
+						<img src={props.attributes.imgUrl} alt={'Photo of ' + props.attributes.author}/>
 					</div>
 				</div>
 

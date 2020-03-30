@@ -10,11 +10,19 @@
   margin: 0 auto;
   width: 500px;
 
+  .content {
+	float: left;
+  }
 
-  .author {
-	text-align: left;
+  .newspost {
+	display: flex;
+	padding-left: 1.8em;
   }
   .title {
+	font-weight: 700;
+	margin: 0;
+	padding-left: .9em;
+	padding-top: 1em;
 	font-size: 1.5em;
   }
 
@@ -23,6 +31,14 @@
 	height: 200px;
 	object-fit: cover;
 	margin-right: 2em;
+
+  }
+
+  .date {
+	margin-top: -.6em;
+	font-weight: 300;
+	padding-left: 1.8em;
+	font-size: .8em;
   }
 
 
