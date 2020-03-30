@@ -32,7 +32,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -70,7 +70,7 @@
       <workItem from="1585505227909" duration="448000" />
       <workItem from="1585505974877" duration="271000" />
       <workItem from="1585508060444" duration="15000" />
-      <workItem from="1585508104545" duration="14995000" />
+      <workItem from="1585508104545" duration="18148000" />
     </task>
     <servers />
   </component>
@@ -94,10 +94,10 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="319" y="308" key="Performance.Activity.Monitor/0.23.1440.831@0.23.1440.831" timestamp="1585504809928" />
-    <state x="223" y="104" key="SettingsEditor" timestamp="1585506538926">
+    <state x="0" y="23" key="SettingsEditor" timestamp="1585594955307">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state x="223" y="104" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1585506538926" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1585594955307" />
     <state x="413" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1585504925216">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
@@ -106,10 +106,10 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="395" y="222" width="639" height="486" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1585503727140" />
-    <state x="379" y="212" key="run.anything.popup" timestamp="1585503955086">
+    <state x="379" y="212" key="run.anything.popup" timestamp="1585593273309">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state x="379" y="212" key="run.anything.popup/0.23.1440.831@0.23.1440.831" timestamp="1585503955086" />
+    <state x="379" y="212" key="run.anything.popup/0.23.1440.831@0.23.1440.831" timestamp="1585593273309" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../..</wordpressPath>

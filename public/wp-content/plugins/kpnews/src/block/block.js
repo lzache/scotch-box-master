@@ -38,7 +38,7 @@ registerBlockType( 'lz-plugin/kpnews', {
 	attributes: {
 		newspost: {
 			type: 'string',
-			source: 'text',
+			source: 'html',
 			selector: '.newspost'
 		},
 
@@ -92,14 +92,14 @@ registerBlockType( 'lz-plugin/kpnews', {
 		}
 
 		function selectImage(value) {
-			setAttributes({imgUrl: value.sizes.medium.url});
+			setAttributes({imgUrl: value.sizes.thumbnail.url});
 		}
 
 
 		// Creates a <p class='wp-block-cgb-block-kpnews'></p>.
 		return (
 			<div className={ props.className }>
-
+				<div className="newscard">
 				<RichText className= "title"
 						   value={title}
 						   onChange={changeTitle}
@@ -111,6 +111,7 @@ registerBlockType( 'lz-plugin/kpnews', {
 						   placeholder="Date" />
 
 				<RichText className= "newspost"
+						  	tagName= "div"
 						  	value={newspost}
 						  	onChange={changeNewsPost}
 						  	placeholder="Enter News Here"/>
@@ -126,7 +127,7 @@ registerBlockType( 'lz-plugin/kpnews', {
 						/>
 					</MediaUploadCheck>
 				</div>
-
+				</div>
 			</div>
 		);
 	},
@@ -146,16 +147,20 @@ registerBlockType( 'lz-plugin/kpnews', {
 		return (
 			<div className={ props.className }>
 
-				<div className="content">
+				<div className="newscard">
+					<div className="photo">
+						<img src={props.attributes.imgUrl}
+							 alt={'Photo of ' + props.attributes.imgUrl}/>
+					</div>
 				<div className="text">
 					<p className="title">{props.attributes.title}</p>
 					<p className="date">{props.attributes.date}</p>
-					<p className="newspost">{props.attributes.newspost}</p>
+					 {/*<p className="newspost">{props.attributes.newspost}</p>*/}
+					<RichText.Content tagName= "div"
+									  className= "newspost"
+									  value={props.attributes.newspost} />
 				</div>
 
-					<div className="photo">
-						<img src={props.attributes.imgUrl} alt={'Photo of ' + props.attributes.author}/>
-					</div>
 				</div>
 
 			</div>

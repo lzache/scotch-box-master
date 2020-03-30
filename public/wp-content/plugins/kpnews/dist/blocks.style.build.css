@@ -15,11 +15,10 @@
           box-shadow: 2px 2px 12px grey;
   margin: 0 auto;
   width: 500px; }
-  .wp-block-lz-plugin-kpnews .content {
-    float: left; }
-  .wp-block-lz-plugin-kpnews .newspost {
+  .wp-block-lz-plugin-kpnews .newscard {
     display: -ms-flexbox;
-    display: flex;
+    display: flex; }
+  .wp-block-lz-plugin-kpnews .newspost {
     padding-left: 1.8em; }
   .wp-block-lz-plugin-kpnews .title {
     font-weight: 700;
@@ -31,10 +30,8 @@
     width: 200px;
     height: 200px;
     -o-object-fit: cover;
-       object-fit: cover;
-    margin-right: 2em; }
+       object-fit: cover; }
   .wp-block-lz-plugin-kpnews .date {
-    margin-top: -.6em;
     font-weight: 300;
     padding-left: 1.8em;
     font-size: .8em; }
